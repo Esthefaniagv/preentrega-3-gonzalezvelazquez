@@ -11,25 +11,68 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="./img/favicon.svg" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Delivery - on your way</title>
   </head>
   <body>
-    <header class="main__header">
-      <img
-        src="./img/delivery-logo.svg"
-        alt="logo delivery"
-        width="120px"
-        height="80px"
-      />
-      <nav>
-        <ul class="main__header__nav">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about-us.html">About us</a></li>
-          <li><a href="./services.html">Services</a></li>
-          <li><a href="./contacto.html">Contact us</a></li>
-          <li><a href="./delivery.html">Become a delivery</a></li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar__style py-1 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./img/delivery-logo.svg"
+              alt=""
+              width="90px"
+              height="80px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-light rounded-pill"
+                  href="./delivery.html"
+                  >Become a delivery</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <div class="whatsapp">
@@ -40,71 +83,82 @@
         height="60px"
       />
     </div>
+
+    <div class="principal__services">
+      <div class="principal__services__wrapper">
+        <h1 class="principal__services__title">You choose, we provide the best experience</h1>
+        <p class="principal__services__subtitle">Experts are not made in a day, choose the right plan to learn how to become a better and more professional delivery person.</p>
+      </div>
+    </div>
+      <div class="services__container">
+        <div class="services__container__card">
+          <p class="services__container__card__title">Basic</p>
+          <ul class="services__container__card__list">
+            <li>24/7 Online support</li>
+            <li>Restricted map pointers</li>
+            <li>Lower app flow</li>
+            <li>Beginner's commission</li>
+          </ul>
+        </div>
+        <div class="services__container__card">
+          <p class="services__container__card__title">Adictive</p>
+          <ul class="services__container__card__list">
+            <li>24/7 Online support</li>
+            <li>Medium map pointers</li>
+            <li>Medium app flow</li>
+            <li>Bigger commission</li>
+          </ul>
+        </div>
+        <div class="services__container__card">
+          <p class="services__container__card__title">Pro</p>
+          <ul class="services__container__card__list">
+            <li>24/7 Online support</li>
+            <li>Full on map pointers</li>
+            <li>Unrestricted app</li>
+            <li>Multiple commission options</li>
+          </ul>
+        </div>
+      </div>
+
+
+    <div class="principal__services__container">
+      <img src="./img/running-vec.svg" alt="running delivery guy" />
+    </div>
+    <!-- Footer Bootstrap -->
+    <div class="container-fluid">
+      <div class="row bg-primary pt-4 pb-3">
+        <div class="col-lg-3 text-white mt-lg-3 mt-sm-3">
+          <p>Our Services</p>
+          <div><a class="text-secondary" href="#">Discounts</a></div>
+        </div>
+        <div class="col-lg-3 text-white mt-lg-3">
+          <p>Our company</p>
+          <div><a class="text-secondary" href="#">Our mission</a></div>
+        </div>
+        <div class="col-lg-3 text-white mt-lg-3">
+          <p>Community</p>
+          <div><a class="text-secondary" href="#">Questions</a></div>
+          <div><a class="text-secondary" href="#">Customer Help</a></div>
+        </div>
+        <div class="col-lg-3 mt-lg-3 pt-3">
+          <a href="#"><img src="./img/fb-icon.svg" alt="facebook icon" /></a>
+          <a href="#"
+            ><img src="./img/twitter-icon.svg" alt="twitter icon"
+          /></a>
+          <a href="#"><img src="./img/ig-icon.svg" alt="instagram icon" /></a>
+        </div>
+        <div class="col-xs-12 pt-4">
+          <p class="text-secondary text-center">
+            Copywright - All rights reserved © 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
-  <div class="principal__services">
-      <div class="services__wrapper">
-        <div class="services__card">
-          <p class="services__title">Basic</p>
-          <p class="services__paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="services__card">
-          <p class="services__title">Adictive</p>
-          <p class="services__paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="services__card">
-          <p class="services__title">Pro</p>
-          <p class="services__paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="principal__services__container">
-    <img src="./img/running-vec.svg" alt="running delivery guy" />
-  </div>
-  <footer class="footer">
-    <div class="footer__container">
-      <div class="footer__list01">
-        <p>Delivery</p>
-        <ul>
-          <li>Order products</li>
-        </ul>
-      </div>
-      <div class="footer__list02">
-        <p>Our services</p>
-        <ul>
-          <li>Pricing</li>
-          <li>Discounts</li>
-          <li>Report a bug</li>
-          <li>Terms of service</li>
-        </ul>
-      </div>
-      <div class="footer__list03">
-        <p>Our company</p>
-        <ul>
-          <li>Blog</li>
-          <li>Our mission</li>
-        </ul>
-      </div>
-      <div class="footer__list04">
-        <p>Community</p>
-        <ul>
-          <li>Support</li>
-          <li>Questions</li>
-          <li>Customer Help</li>
-        </ul>
-      </div>
-      <div class="footer__link__container05">
-        <a href="#"> <img src="./img/fb-icon.svg" alt="facebook icon" /></a>
-        <a href="#"> <img src="./img/twitter-icon.svg" alt="twitter icon" /></a>
-        <a href="#"> <img src="./img/ig-icon.svg" alt="instagram icon" /></a>
-      </div>
-    </div>
-  </footer>
 </html>
