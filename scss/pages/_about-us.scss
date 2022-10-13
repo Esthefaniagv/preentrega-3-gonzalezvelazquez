@@ -6,7 +6,7 @@
   height: 450px;
   padding: 0 15px;
   justify-content: center;
-  $__container {
+  &__container {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -15,22 +15,20 @@
     justify-content: center;
     padding-right: 10px;
   }
-}
-
-.header__content__title {
-  font-weight: 700;
-  font-size: 40px;
-  color: #000000;
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+  }
+  &__paragraph {
+    font-weight: 600;
+    font-size: 20px;
+    color: #777776;
+  }
 }
 
 .highlight__title {
   color: #fdc72d;
-}
-
-.header__content__paragraph {
-  font-weight: 600;
-  font-size: 20px;
-  color: #777776;
 }
 
 .company__principles {
@@ -40,6 +38,16 @@
   flex-direction: column-reverse;
   justify-content: space-between;
   padding: 0 15px;
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+  }
+  &__list li {
+    font-weight: 400;
+    font-size: 15px;
+    color: #777776;
+  }
 }
 
 .company__wrapper {
@@ -50,17 +58,6 @@
   height: 345px;
 }
 
-.company__principles__title {
-  font-weight: 700;
-  font-size: 30px;
-  color: #000000;
-}
-
-.company__principles__list li {
-  font-weight: 400;
-  font-size: 15px;
-  color: #777776;
-}
 
 .worker__delivery {
   height: 400px;
@@ -73,32 +70,30 @@
     height: 450px;
     padding: 0 15px;
     justify-content: center;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 65%;
+      align-items: center;
+      justify-content: center;
+      padding-right: 10px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 40px;
+      color: #000000;
+    }
+    &__paragraph {
+      font-weight: 600;
+      font-size: 20px;
+      color: #777776;
+    }
   }
 
-  .header__content__container {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 65%;
-    align-items: center;
-    justify-content: center;
-    padding-right: 10px;
-  }
-
-  .header__content__title {
-    font-weight: 700;
-    font-size: 40px;
-    color: #000000;
-  }
 
   .highlight__title {
     color: #fdc72d;
-  }
-
-  .header__content__paragraph {
-    font-weight: 600;
-    font-size: 20px;
-    color: #777776;
   }
 
   .company__principles {
@@ -108,6 +103,16 @@
     flex-direction: column-reverse;
     justify-content: space-between;
     padding: 0 15px;
+    &__title {
+      font-weight: 700;
+      font-size: 30px;
+      color: #000000;
+    }
+    &__list li {
+      font-weight: 400;
+      font-size: 15px;
+      color: #777776;
+    }
   }
 
   .company__wrapper {
@@ -118,17 +123,6 @@
     height: 345px;
   }
 
-  .company__principles__title {
-    font-weight: 700;
-    font-size: 30px;
-    color: #000000;
-  }
-
-  .company__principles__list li {
-    font-weight: 400;
-    font-size: 15px;
-    color: #777776;
-  }
 
   .worker__delivery {
     height: 400px;
