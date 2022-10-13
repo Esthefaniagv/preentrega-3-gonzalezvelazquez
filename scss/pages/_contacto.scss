@@ -1,0 +1,79 @@
+/* Seccion mobile contacto */
+.main__principal {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__principal__contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  justify-content: center;
+}
+
+.main__principal__contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 90%;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.main__principal__contact__img img {
+  display: none;
+}
+
+.main__principal__title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main__principal__paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  color: #777776;
+}
+
+@media (min-width: 992px) {
+  /* Inicio Página de contacto */
+  /* Seccion main */
+  .main__principal {
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+  }
+  .main__principal__contact__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+    padding-top: 55px;
+  }
+  .main__principal__contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 420px;
+    justify-content: center;
+  }
+  .main__principal__contact__img img {
+    display: flex;
+    width: auto;
+  }
+  .main__principal__title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .main__principal__paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    color: #777776;
+  }
+}

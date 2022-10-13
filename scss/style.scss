@@ -1,4 +1,11 @@
-@charset "UTF-8";
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -86,42 +93,6 @@ body {
   width: 95%;
 }
 
-/* inicio seccion mobile About us */
-.about__us {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about__us__container {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 90%;
-  height: 80%;
-  padding: 0 15px;
-}
-
-.about__us__button {
-  background-color: #fdc72d;
-  color: #000000;
-  font-weight: 600;
-  font-size: 12px;
-  width: 90px;
-  height: 20px;
-  border-radius: 61px;
-  text-align: center;
-}
-
-.about__us__title {
-  font-weight: 500;
-  font-size: 30px;
-}
-
-.about__us__img img {
-  width: 90%;
-}
 
 /* inicio mobile Our services */
 .our__services {
@@ -550,6 +521,79 @@ body {
   font-size: 12px;
   color: #777776;
 }
+
+.services__container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 650px;
+  margin: 15px 0;
+  padding: 0 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.services__container__card__title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.services__container__card__list {
+  font-weight: 400;
+  font-size: 13px;
+  color: #777776;
+  list-style: circle;
+}
+.services__container__card {
+  background: linear-gradient(
+    120deg,
+    rgba(253, 199, 45, 1) 71%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 180px;
+  width: 90%;
+  border-radius: 25px;
+  display: flex;
+}
+
+.services__container__card_01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+
+.services__container__card_02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+
+.services__container__card_03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+
+.principal__services__container {
+  width: 100vw;
+  height: 200px;
+  
+}
+
+.principal__services__container img{
+  width: 190px;
+  height: 220px;
+  
+}
+
+
+
 @media (min-width: 992px) {
   .whatsapp {
     bottom: 20px;
@@ -1030,8 +1074,12 @@ body {
     align-items: center;
   }
 
-  .principal__services__container {
-    width: 400px;
-    height: 400px;
+  .principal__services__container{
+    height: 300px;
   }
+  .principal__services__container img{
+    width: 400px;
+    height: 350px;
+  }
+
 }
