@@ -6,134 +6,131 @@
   height: 450px;
   padding: 0 15px;
   justify-content: center;
-}
-
-.header__content__container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 65%;
-  align-items: center;
-  justify-content: center;
-  padding-right: 10px;
-}
-
-.header__content__title {
-  font-weight: 700;
-  font-size: 40px;
-  color: #000000;
-}
-
-.highlight__title {
-  color: #fdc72d;
-}
-
-.header__content__paragraph {
-  font-weight: 600;
-  font-size: 20px;
-  color: #777776;
-}
-
-.company__principles {
-  width: 100vw;
-  height: 800px;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  padding: 0 15px;
-}
-
-.company__wrapper {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  border: #fdc72d solid;
-  height: 345px;
-}
-
-.company__principles__title {
-  font-weight: 700;
-  font-size: 30px;
-  color: #000000;
-}
-
-.company__principles__list li {
-  font-weight: 400;
-  font-size: 15px;
-  color: #777776;
-}
-
-.worker__delivery {
-  height: 400px;
-}
-
-
-@media (min-width: 992px){
-.header__content {
-  display: flex;
-  flex-direction: column;
-  height: 450px;
-  padding: 0 15px;
-  justify-content: center;
-}
-
-.header__content__container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 65%;
-  align-items: center;
-  justify-content: center;
-  padding-right: 10px;
-}
-
-.header__content__title {
-  font-weight: 700;
-  font-size: 40px;
-  color: #000000;
-}
-
-.highlight__title {
-  color: #fdc72d;
-}
-
-.header__content__paragraph {
-  font-weight: 600;
-  font-size: 20px;
-  color: #777776;
-}
-
-.company__principles {
-  width: 100vw;
-  height: 800px;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  padding: 0 15px;
-}
-
-.company__wrapper {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  border: #fdc72d solid;
-  height: 345px;
-}
-
-.company__principles__title {
-  font-weight: 700;
-  font-size: 30px;
-  color: #000000;
-}
-
-.company__principles__list li {
-  font-weight: 400;
-  font-size: 15px;
-  color: #777776;
-}
-
-.worker__delivery {
-  height: 400px;
-}
-
+  $__container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
   }
+}
+
+.header__content__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+}
+
+.highlight__title {
+  color: #fdc72d;
+}
+
+.header__content__paragraph {
+  font-weight: 600;
+  font-size: 20px;
+  color: #777776;
+}
+
+.company__principles {
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.company__wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: #fdc72d solid;
+  height: 345px;
+}
+
+.company__principles__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+}
+
+.company__principles__list li {
+  font-weight: 400;
+  font-size: 15px;
+  color: #777776;
+}
+
+.worker__delivery {
+  height: 400px;
+}
+
+@media (min-width: 992px) {
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    padding: 0 15px;
+    justify-content: center;
+  }
+
+  .header__content__container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+  }
+
+  .header__content__title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+  }
+
+  .highlight__title {
+    color: #fdc72d;
+  }
+
+  .header__content__paragraph {
+    font-weight: 600;
+    font-size: 20px;
+    color: #777776;
+  }
+
+  .company__principles {
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+
+  .company__wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: #fdc72d solid;
+    height: 345px;
+  }
+
+  .company__principles__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+  }
+
+  .company__principles__list li {
+    font-weight: 400;
+    font-size: 15px;
+    color: #777776;
+  }
+
+  .worker__delivery {
+    height: 400px;
+  }
+}
