@@ -1,14 +1,15 @@
 // Include any default variable overrides here (though functions won't be available)
 
-$primary: #FEE395!default;
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
+@import "./complements/bucles";
+@import "./complements/variables";
 @import "./pages/index";
 @import "./pages/about-us";
 @import "./pages/contacto";
 @import "./pages/delivery";
 @import "./pages/services";
-
