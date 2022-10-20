@@ -1,0 +1,12 @@
+@mixin card_shadow($nivel) {
+    @if $nivel==1{
+        box-shadow: 0 0 15px #ddd;
+    } @else if $nivel==2{
+        box-shadow: 0 0 20px #ddd;
+    }
+    @else if $nivel==3{
+        box-shadow: 0 0 25px #ddd;
+    }
+    
+    
+}
